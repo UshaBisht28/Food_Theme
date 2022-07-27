@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    font-family: 'Kaushan Script', cursive;
+}
+.menu{
+    background-image: url('../img/background.jpg');
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.menu .logo{
+    font-size: 34px;
+    padding: 14px;
+}
+.menu .centerimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.foodlist .list1{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 111px;
+    align-items: center;
+    justify-content: space-between;
+}
+.foodlist .list1 .item{
+    padding-left: 60px;
+}
+.foodlist .list1 .item h2{
+    text-align: center;
+}
+.foodlist .list1 img{
+    width: 100%;
+}
+.foodlist .list2{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 111px;
+    align-items: center;
+    justify-content: space-between;
+}
+.foodlist .list2 img{
+    width: 100%;
+}
+.foodlist .list2 .item h2{
+    text-align: center;
+}
+.foodlist p{
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.fullimg img{
+    height: 500px;
+    width: 100%;
+}
+.foot{
+    height: 136px;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid;
+}
+.foot .item img{
+    width: 195px;
+    height: 63px;
+}
+.foot .item{
+    display: block;
+    margin: 0 auto;
+}
+.foot .item ul{
+    list-style: none;
+   
+}
+.foot .item ul li{
+    float: left;
+    padding: 10px;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: #000;
+    font-size: 28px;
+}
